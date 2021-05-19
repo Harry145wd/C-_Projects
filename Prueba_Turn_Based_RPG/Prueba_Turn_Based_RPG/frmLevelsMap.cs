@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Prueba_Turn_Based_RPG
 {
-    public partial class Form1 : Form
+    public partial class frmLevelsMap : Form
     {
-        public Form1()
+        public frmLevelsMap()
         {
             InitializeComponent();
         }

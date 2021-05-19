@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Entidades
 {
-    public class Enemy : Character
+    public class Archer : Hero
     {
         #region Atributes
         #endregion
@@ -15,8 +15,8 @@ namespace Entidades
         #endregion
 
         #region Constructors
-        public Enemy(string name, int lifePoints, StatsBase statsBase)
-                   : base(name, lifePoints, statsBase)
+        public Archer(string name, int lifePoints, StatsBase statsBase, Inventory inventory, LevelData levelData)
+               : base(name, lifePoints, statsBase, inventory, levelData)
         {
         }
         #endregion
@@ -26,7 +26,5 @@ namespace Entidades
 
         #region Operators
         #endregion
-
-
     }
 }

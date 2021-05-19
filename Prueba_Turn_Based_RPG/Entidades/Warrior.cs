@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace Entidades
 {
-    public class Enemy : Character
+    public class Warrior : Hero
     {
+
         #region Atributes
         #endregion
 
@@ -15,8 +16,8 @@ namespace Entidades
         #endregion
 
         #region Constructors
-        public Enemy(string name, int lifePoints, StatsBase statsBase)
-                   : base(name, lifePoints, statsBase)
+        public Warrior(string name, int lifePoints, StatsBase statsBase, Inventory inventory, LevelData levelData) 
+                : base(name, lifePoints, statsBase,inventory,levelData)
         {
         }
         #endregion
@@ -26,7 +27,6 @@ namespace Entidades
 
         #region Operators
         #endregion
-
 
     }
 }

@@ -6,18 +6,24 @@ using System.Threading.Tasks;
 
 namespace Entidades
 {
-    public class Enemy : Character
+   
+    public class Weapon : Equipment
     {
         #region Atributes
+        protected HeroClass heroClass;
+        protected int ATK;
+        protected int WGH;
         #endregion
 
         #region Properties
         #endregion
 
         #region Constructors
-        public Enemy(string name, int lifePoints, StatsBase statsBase)
-                   : base(name, lifePoints, statsBase)
+        public Weapon(string name, int id, Tier tier, int value, HeroClass heroClass, int ATK, int WGH) : base (name, id, tier,value)
         {
+            this.heroClass = heroClass;
+            this.ATK = ATK;
+            this.WGH = WGH;
         }
         #endregion
 
@@ -26,7 +32,5 @@ namespace Entidades
 
         #region Operators
         #endregion
-
-
     }
 }
