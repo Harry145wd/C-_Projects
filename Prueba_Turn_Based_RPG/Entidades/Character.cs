@@ -12,8 +12,8 @@ namespace Entidades
 
         protected string name;
         protected int lifePoints;
-        protected Inventory inventory;
-        protected EstadoLogico estadoLogico;
+        //protected Inventory inventory;
+        //protected LogicState estadoLogico;
         protected StatsBase statsBase; 
        
 
@@ -43,6 +43,7 @@ namespace Entidades
                 }
             }
         }
+        /*
         public virtual Inventory Inventory
         {
             get { return this.inventory; }
@@ -56,7 +57,8 @@ namespace Entidades
                 this.inventory = value;
             }
         }
-        public EstadoLogico EstadoLogico
+        */
+        public LogicState EstadoLogico
         {
             get;
             set;
@@ -135,7 +137,7 @@ namespace Entidades
             this.Name = name;
             this.LifePoints = lifePoints;
             this.StatsBase = statsBase;
-            this.EstadoLogico = EstadoLogico.Alive;
+            this.EstadoLogico = LogicState.Alive;
         }
 
         #endregion

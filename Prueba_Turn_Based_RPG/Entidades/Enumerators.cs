@@ -12,7 +12,7 @@ namespace Entidades
         Archer,
         Mage,
     }
-    public enum EstadoLogico
+    public enum LogicState
     {
         Alive = 1,
         Defeated = 0,

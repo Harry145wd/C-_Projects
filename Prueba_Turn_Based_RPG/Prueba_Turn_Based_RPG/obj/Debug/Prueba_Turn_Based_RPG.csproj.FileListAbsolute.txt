@@ -1,0 +1,11 @@
+C:\Users\harry\Desktop\Proyectos Programacion\C#_Projects\Prueba_Turn_Based_RPG\Prueba_Turn_Based_RPG\bin\Debug\Prueba_Turn_Based_RPG.exe.config
+C:\Users\harry\Desktop\Proyectos Programacion\C#_Projects\Prueba_Turn_Based_RPG\Prueba_Turn_Based_RPG\bin\Debug\Prueba_Turn_Based_RPG.exe
+C:\Users\harry\Desktop\Proyectos Programacion\C#_Projects\Prueba_Turn_Based_RPG\Prueba_Turn_Based_RPG\bin\Debug\Prueba_Turn_Based_RPG.pdb
+C:\Users\harry\Desktop\Proyectos Programacion\C#_Projects\Prueba_Turn_Based_RPG\Prueba_Turn_Based_RPG\obj\Debug\Prueba_Turn_Based_RPG.csprojAssemblyReference.cache
+C:\Users\harry\Desktop\Proyectos Programacion\C#_Projects\Prueba_Turn_Based_RPG\Prueba_Turn_Based_RPG\obj\Debug\Prueba_Turn_Based_RPG.frmLevelsMap.resources
+C:\Users\harry\Desktop\Proyectos Programacion\C#_Projects\Prueba_Turn_Based_RPG\Prueba_Turn_Based_RPG\obj\Debug\Prueba_Turn_Based_RPG.frmMenu.resources
+C:\Users\harry\Desktop\Proyectos Programacion\C#_Projects\Prueba_Turn_Based_RPG\Prueba_Turn_Based_RPG\obj\Debug\Prueba_Turn_Based_RPG.Properties.Resources.resources
+C:\Users\harry\Desktop\Proyectos Programacion\C#_Projects\Prueba_Turn_Based_RPG\Prueba_Turn_Based_RPG\obj\Debug\Prueba_Turn_Based_RPG.csproj.GenerateResource.cache
+C:\Users\harry\Desktop\Proyectos Programacion\C#_Projects\Prueba_Turn_Based_RPG\Prueba_Turn_Based_RPG\obj\Debug\Prueba_Turn_Based_RPG.csproj.CoreCompileInputs.cache
+C:\Users\harry\Desktop\Proyectos Programacion\C#_Projects\Prueba_Turn_Based_RPG\Prueba_Turn_Based_RPG\obj\Debug\Prueba_Turn_Based_RPG.exe
+C:\Users\harry\Desktop\Proyectos Programacion\C#_Projects\Prueba_Turn_Based_RPG\Prueba_Turn_Based_RPG\obj\Debug\Prueba_Turn_Based_RPG.pdb

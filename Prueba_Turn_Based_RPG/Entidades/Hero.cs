@@ -9,13 +9,13 @@ namespace Entidades
     public abstract class Hero : Character
     {
         #region Atributes
-        protected Weapon equippedWeapon;
+        //protected Weapon equippedWeapon;
         protected LevelData levelData;
         #endregion
 
         #region Properties
 
-
+        /*
         public override Inventory Inventory
         {
             get { return this.inventory; }
@@ -29,6 +29,7 @@ namespace Entidades
                 this.inventory = value;      
             }
         }
+        */
         public LevelData LevelData
         {
             get
@@ -86,6 +87,7 @@ namespace Entidades
             get { return this.Level * 1000; } 
         }
 
+        /*
         public Weapon EquippedWeapon
         {
             get 
@@ -96,14 +98,15 @@ namespace Entidades
             {
                 this.Inventory.Weapons[0] = value;
             }
-        }
+        } 
+        */
         #endregion
 
         #region Constructors
-        public Hero(string name, int lifePoints, StatsBase statsBase, Inventory inventory,LevelData levelData)
+        public Hero(string name, int lifePoints, StatsBase statsBase, /*Inventory inventory,*/LevelData levelData)
              : base(name, lifePoints, statsBase)
         {
-            this.Inventory = inventory;
+            //this.Inventory = inventory;
             this.LevelData = levelData;
 
         }
