@@ -1,0 +1,6 @@
+C:\Users\harry\Desktop\Proyectos Programacion\C#_Projects\Prueba_Turn_Based_RPG\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+C:\Users\harry\Desktop\Proyectos Programacion\C#_Projects\Prueba_Turn_Based_RPG\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\harry\Desktop\Proyectos Programacion\C#_Projects\Prueba_Turn_Based_RPG\Entidades\bin\Debug\Entidades.dll
+C:\Users\harry\Desktop\Proyectos Programacion\C#_Projects\Prueba_Turn_Based_RPG\Entidades\bin\Debug\Entidades.pdb
+C:\Users\harry\Desktop\Proyectos Programacion\C#_Projects\Prueba_Turn_Based_RPG\Entidades\obj\Debug\Entidades.dll
+C:\Users\harry\Desktop\Proyectos Programacion\C#_Projects\Prueba_Turn_Based_RPG\Entidades\obj\Debug\Entidades.pdb

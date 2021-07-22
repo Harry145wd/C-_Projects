@@ -9,3 +9,7 @@ C:\Users\harry\Desktop\Proyectos Programacion\C#_Projects\Prueba_Turn_Based_RPG\
 C:\Users\harry\Desktop\Proyectos Programacion\C#_Projects\Prueba_Turn_Based_RPG\Prueba_Turn_Based_RPG\obj\Debug\Prueba_Turn_Based_RPG.csproj.CoreCompileInputs.cache
 C:\Users\harry\Desktop\Proyectos Programacion\C#_Projects\Prueba_Turn_Based_RPG\Prueba_Turn_Based_RPG\obj\Debug\Prueba_Turn_Based_RPG.exe
 C:\Users\harry\Desktop\Proyectos Programacion\C#_Projects\Prueba_Turn_Based_RPG\Prueba_Turn_Based_RPG\obj\Debug\Prueba_Turn_Based_RPG.pdb
+C:\Users\harry\Desktop\Proyectos Programacion\C#_Projects\Prueba_Turn_Based_RPG\Prueba_Turn_Based_RPG\obj\Debug\Prueba_Turn_Based_RPG.frmLevel.resources
+C:\Users\harry\Desktop\Proyectos Programacion\C#_Projects\Prueba_Turn_Based_RPG\Prueba_Turn_Based_RPG\bin\Debug\Entidades.dll
+C:\Users\harry\Desktop\Proyectos Programacion\C#_Projects\Prueba_Turn_Based_RPG\Prueba_Turn_Based_RPG\bin\Debug\Entidades.pdb
+C:\Users\harry\Desktop\Proyectos Programacion\C#_Projects\Prueba_Turn_Based_RPG\Prueba_Turn_Based_RPG\obj\Debug\Prueba_Turn_Based_RPG.csproj.CopyComplete

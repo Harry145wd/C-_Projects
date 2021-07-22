@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Entidades
 {
-    public class HarryIO
+    public static class HarryIO
     {
 
         public static bool GetInt(out int number, string message, string error)
@@ -173,7 +173,6 @@ namespace Entidades
             return ret;
         }
 
-
         public static int CountCharApparitionsOnString(char character, string validationCharacters)
         {
             int ret = 0;
@@ -186,7 +185,6 @@ namespace Entidades
             }
             return ret;
         }
-
 
         public static bool IsInRange(int number, int min, int max)
         {

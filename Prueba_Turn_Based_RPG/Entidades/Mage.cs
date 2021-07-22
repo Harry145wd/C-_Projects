@@ -16,10 +16,11 @@ namespace Entidades
         #endregion
 
         #region Constructors
-        public Mage(string name, int lifePoints, StatsBase statsBase, Inventory inventory, LevelData levelData)
+        /*public Mage(string name, int lifePoints, StatsBase statsBase, Inventory inventory, LevelData levelData)
              : base(name, lifePoints, statsBase, inventory, levelData)
         {
         }
+        */
         #endregion
 
         #region Methods

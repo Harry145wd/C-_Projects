@@ -13,7 +13,7 @@ namespace Entidades
         protected string name;
         protected int lifePoints;
         //protected Inventory inventory;
-        //protected LogicState estadoLogico;
+        protected LogicState estadoLogico;
         protected StatsBase statsBase; 
        
 
@@ -131,19 +131,38 @@ namespace Entidades
         #endregion
 
         #region Constructors
+        public Character()
+        {
+            this.EstadoLogico = LogicState.Alive;
+        }
 
-        public Character(string name, int lifePoints, StatsBase statsBase)
+        /*public Character(string name, int lifePoints, StatsBase statsBase)
         {
             this.Name = name;
             this.LifePoints = lifePoints;
             this.StatsBase = statsBase;
-            this.EstadoLogico = LogicState.Alive;
+            
         }
-
+        */
         #endregion
 
         #region Methods
-
+        public static bool isPartyDown(List<Character> party)
+        {
+            bool ret = true;
+            if (party != null)
+            {
+                foreach (Character aux in party)
+                {
+                    if (aux.EstadoLogico == LogicState.Alive)
+                    {
+                        ret = false;
+                        break;
+                    }
+                }
+            }
+            return ret;
+        }
         protected string Attack(object target, int attackType)
         {
             return "";

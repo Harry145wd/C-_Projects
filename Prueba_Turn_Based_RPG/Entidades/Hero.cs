@@ -103,17 +103,34 @@ namespace Entidades
         #endregion
 
         #region Constructors
-        public Hero(string name, int lifePoints, StatsBase statsBase, /*Inventory inventory,*/LevelData levelData)
+        /*
+        public Hero(string name, int lifePoints, StatsBase statsBase, Inventory inventory,LevelData levelData)
              : base(name, lifePoints, statsBase)
         {
             //this.Inventory = inventory;
             this.LevelData = levelData;
 
         }
+        */
         #endregion
 
         #region Methods
-        
+        public static bool isPartyDown(List<Hero> party)
+        {
+            bool ret = true;
+            if (party != null)
+            {
+                foreach (Hero aux in party)
+                {
+                    if (aux.EstadoLogico == LogicState.Alive)
+                    {
+                        ret = false;
+                        break;
+                    }
+                }
+            }
+            return ret;
+        }
         #endregion
 
         #region Operators

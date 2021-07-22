@@ -19,16 +19,17 @@ namespace Prueba_Turn_Based_RPG
 
         private void btnJugar_Click(object sender, EventArgs e)
         {
-            frmLevelsMap levelsMap = new frmLevelsMap();
+            frmLevelsMap levelsMap = new frmLevelsMap(this);
             levelsMap.Show();
-            this.Hide();
-            
         }
         private void btnSalir_Click(object sender, EventArgs e)
         {
             this.Close();
         }
 
-        
+        private void frmMenu_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
